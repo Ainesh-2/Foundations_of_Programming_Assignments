@@ -1,6 +1,5 @@
 # Foundations_of_Programming_Assignments
-Ainesh Assignments Code files
-Foundations of Programming — All Assignments
+Ainesh's Assignment Code and Word files
 This repository contains Ainesh's C programs for all 22 lab assignments of the Foundations of Programming (FOP) course.
 
 #	Topic
