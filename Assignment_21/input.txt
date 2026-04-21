@@ -1,0 +1,2 @@
+This is a random .txt file made to be copied by my program. The program here is Assignment_21.c for my 21st Assignment.
+Hopefully this is copied successfully
