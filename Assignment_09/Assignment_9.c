@@ -1,23 +1,24 @@
 #include <stdio.h>
-
+#include <math.h>
 void main()
 {
-    int number, original, remainder, result = 0;
-
+    int num, temp, d = 0, sum = 0;
     printf("Enter a three-digit number: ");
-    scanf("%d", &number);
-
-    original = number;
-
-    while (number != 0)
+    scanf("%d", &num);
+    temp = num;
+    while (temp != 0)
     {
-        remainder = number % 10;
-        result += remainder * remainder * remainder;
-        number /= 10;
+        temp /= 10;
+        d++;
     }
-
-    if (result == original)
-        printf("%d is an Armstrong number.\n", original);
+    temp = num;
+    for (int i = 0; i < d; i++)
+    {
+        sum = sum * 10 + (int)pow((temp % 10), d);
+        temp /= 10;
+    }
+    if (sum == num)
+        printf("%d is an Armstrong number.", num);
     else
-        printf("%d is not an Armstrong number.\n", original);
+        printf("%d is not an Armstrong number.", num);
 }
