@@ -29,4 +29,3 @@ void main()
     fclose(source);
     fclose(destination);
 }
-// make it copy input.txt that is present in the same directory and copy to copied.txt
